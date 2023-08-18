@@ -8,7 +8,7 @@ Welcome to my portfolio app! This repository contains the source code and inform
 
 - [About](#about)
 - [Projects](#projects)
-- [How-to-install-and-run-locally?](# How-to-install-and-run-locally?)
+- [Working](# Working)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,7 +26,7 @@ Here are a few of the projects included in this portfolio:
 
 Each project is accompanied by live demo links and source code links. Feel free to explore!
 
-## How to install and run locally?
+## Working
 
 To run this portfolio app locally, follow these steps:
 
