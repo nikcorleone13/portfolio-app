@@ -8,7 +8,7 @@ Welcome to my portfolio app! This repository contains the source code and inform
 
 - [About](#about)
 - [Projects](#projects)
-- [Working](# Working)
+- [Working](#Working)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
