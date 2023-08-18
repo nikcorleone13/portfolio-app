@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import "./Home.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import Typed from "react-typed";
+// import Typed from "react-typed";
 // ..
 AOS.init();
 
@@ -29,13 +29,13 @@ export const Home = () => {
           <p className=" py-6 md:py-10 max-w-md text-textPrimaryMobile md:text-textPrimaryDesktop md:text-[19px] tracking-wider font-extralight ">
             with a bit of love for artistry as well. I try to bring the design
             to life and make it as mesmerizing as I can. I have experience in
-            React, Node{" "}
-            <Typed
+            React, Node and much more {" "}
+            {/* <Typed
               strings={["and much more"]}
               typeSpeed={120}
               backSpeed={150}
               loop
-            />
+            /> */}
           </p>
 
           <div data-aos="flip-up" data-aos-duration="2500">

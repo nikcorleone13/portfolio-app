@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { v4 as uuid } from "uuid";
-import Footwork from "../images/projects/Footwork.png"
-import Mail from "../images/projects/Mail.png"
-import Yoda from "../images/projects/Yoda.png"
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 
