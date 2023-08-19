@@ -17,7 +17,7 @@
         background-size: 180%;
         box-shadow: 3px 3px 2px 3px #c6eb7a;
         animation: animate 8s ease-in-out infinite;
-        transition: all 5s ease-in-out;
+        transition: all 3s ease-in-out;
     }
   }
 @keyframes animate{

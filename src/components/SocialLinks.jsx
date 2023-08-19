@@ -71,7 +71,7 @@ const links = [
         <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "/resume.Nikhil_Kumar_CV.pdf",
+    href: "/Nikhil_Kumar_CV.pdf",
     style: "rounded-br-md",
     download: true,
   },
