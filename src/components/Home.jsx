@@ -23,10 +23,10 @@ export const Home = () => {
         <div className="flex flex-col justify-center h-full text-left pt-8 md:none">
           <h2 className="text-6xl sm:text-8xl font-bold text-textPrimaryMobile md:text-textPrimaryDesktop ">
             <span className=" bg-gradient-to-r from-blue-300 via-[#80a7f6] to-[rgb(255,143,148)] text-transparent bg-clip-text tracking-tight   ">
-              I'm a Frontend Developer{" "}
+              I'm a Fullstack Developer{" "}
             </span>
           </h2>
-          <p className=" py-6 md:py-10 max-w-md text-textPrimaryMobile md:text-textPrimaryDesktop md:text-[19px] tracking-wider font-extralight ">
+          <p className=" py-6 md:py-10 max-w-md text-textPrimaryMobile md:text-textPrimaryDesktop md:text-xl tracking-wider font-extralight ">
             with a bit of love for artistry as well. I try to bring the design
             to life and make it as mesmerizing as I can. I have experience in
             React, Node and much more {" "}

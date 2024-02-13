@@ -33,14 +33,14 @@ const links = [
 export const Navbar = () => {
   const [nav, setNav] = useState(true);
   return (
-    <div className="z-[9999] flex justify-between items-center w-full h-20 fixed px-4 bg-primaryMobile text md:bg-primaryDesktopNavbar text-textPrimaryMobile md:text-textPrimaryDesktop ">
-      <div className="font-heading text-3xl md:text-5xl ">
+    <div className="z-[9999] flex justify-between items-center w-full h-20 fixed px-4 bg-primaryMobile text lg:bg-primaryDesktopNavbar text-textPrimaryMobile lg:text-textPrimaryDesktop ">
+      <div className="font-heading text-3xl lg:text-5xl ">
         <h1>Nikhil</h1>
       </div>
-      <ul className="hidden md:flex md:text-xl">
+      <ul className="hidden lg:flex lg:text-xl">
         {links.map(({ id, link }) => {
           return (
-            <li key={id} className="px-5 cursor-pointer uppercase font-bolder ">
+            <li key={id} className="px-5 cursor-pointer capitalize font-bolder ">
               <Link to={link} smooth="true" duration={800}>
                 {link}
               </Link>
@@ -50,7 +50,7 @@ export const Navbar = () => {
       </ul>
 
       <div
-        className="cursor-pointer text-textPrimaryMobile  z-[100] md:hidden"
+        className="cursor-pointer text-textPrimaryMobile  z-[100] lg:hidden"
         onClick={() => setNav(!nav)}
       >
         {nav ? <FaBars size={25} /> : <FaTimes size={25} />}

@@ -16,8 +16,7 @@ export default {
         textPrimaryDesktop: 'whitesmoke',
         textPrimaryDesktopHover: '#c86060',
 
-        htmlOrange: '#FF5733',
-        cssBlue: '#0000FF',
+        typescriptBlue:'#3178c6',
         jsYellow: '#eab308',
         reactBlue: '#61DBFB',
         tailwindBlue: '#38bdf8',
@@ -25,8 +24,9 @@ export default {
         mongoGreen: '#00ed64',
         postmanOrange: '#ff6c37',
         muiBlue: '#007fff',
-        nginxGreen: '#009639',
-        jestPink: '#831843'
+        redux: '#764abc',
+        jestPink: '#831843',
+        
       }
     },
     fontFamily: {

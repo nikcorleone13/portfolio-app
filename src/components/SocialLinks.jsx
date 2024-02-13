@@ -88,7 +88,7 @@ function SocialLinks() {
           return (
             <li
               key={id}
-              className="flex justify-between items-center w-40 h-16 px-3 bg-zinc-900 text-textPrimaryDesktop ml-[-110px] hover:rounded-md duration-300 hover:ml-[-10px] text-lg"
+              className="flex justify-between items-center w-40 h-16 px-3 bg-zinc-900 text-textPrimaryDesktop ml-[-110px] hover:rounded-md duration-300 hover:ml-[-1px] text-lg"
             >
               <a
                 className="flex justify-between items-center w-full "

@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
-import { Link } from "react-router-dom";
 import footwork from "../images/projects/footwork.png";
-import mail from "../images/projects/mail.png";
-import yoda from "../images/projects/yoda.png";
-import footworkVideo from "../images/videos/footwork-video.mp4";
-import mailVideo from "../images/videos/mail-app.mp4"
+import foodie from "../images/projects/foodie.png";
+import fitfreaks from '../images/projects/fitfreaks.png'
+import composure from '../images/projects/composure.png'
 
 const works = [
   {
@@ -14,15 +12,27 @@ const works = [
     link: "https://footwork.vercel.app/",
     source: "https://github.com/nikcorleone13/footwork-ecomm",
     pic: footwork,
-    video: footworkVideo,
   },
   {
     id: uuid(),
-    name: "Email App",
-    link: "https://mymail-app.netlify.app/",
-    source: "https://github.com/nikcorleone13/React-Mail-App",
-    pic: mail,
-    video: mailVideo,
+    name: "Foodie-Backend",
+    link: "https://documenter.getpostman.com/view/17485502/2s9YJW4QwN",
+    source: "https://github.com/nikcorleone13/Foodie-Backend",
+    pic: foodie,
+  },
+  {
+    id: uuid(),
+    name: "Fit-Freaks",
+    link: "https://fit-freaks.netlify.app/",
+    source: "https://github.com/nikcorleone13/mern-fitness",
+    pic: fitfreaks,
+  },
+  {
+    id: uuid(),
+    name: "Composure: A Component Library",
+    link: "https://composure.vercel.app/",
+    source: "https://github.com/nikcorleone13/Composure--A-Component-Library",
+    pic: composure,
   },
 ];
 const Portfolio = () => {
@@ -64,24 +74,12 @@ const Portfolio = () => {
                 onMouseEnter={() => handleMouseEnter(id)}
                 onMouseLeave={handleMouseLeave}
               >
-                <div className="hidden md:block">
-                  {hoveredVideo === id ? (
-                    <video
-                      className=" md:hover:scale-125  md:duration-200  md:ease-in-out"
-                      loop
-                      autoPlay
-                      muted
-                      playbackRate={2}
-                    >
-                      <source src={video} type="video/mp4" />
-                    </video>
-                  ) : (
+                <div className="hidden md:block rounded-md">
                     <img
-                      className="video-poster"
+                      className="video-poster rounded-t-md"
                       src={pic}
                       alt={`${name} Poster`}
                     />
-                  )}
                 </div>
                 <img src={pic} className="rounded-t-md duration-200 md:hidden" />{" "}
                 <p className=" font-semibold">{name}</p>

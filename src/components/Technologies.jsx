@@ -1,7 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
@@ -10,27 +9,14 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-import { SiNginx, SiJest } from "react-icons/si";
+import { SiRedux, SiJest } from "react-icons/si";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
 // tech array
 const tech = [
-  {
-    id: uuid(),
-    src: FaHtml5,
-    title: "HTML",
-    color: "text-htmlOrange",
-    style: "shadow-orange-500",
-  },
-  {
-    id: uuid(),
-    src: FaCss3Alt,
-    title: "CSS",
-    color: "text-cssBlue",
-    style: "shadow-blue-500",
-  },
+
   {
     id: uuid(),
     src: IoLogoJavascript,
@@ -44,6 +30,20 @@ const tech = [
     title: "React JS",
     color: "text-reactBlue",
     style: "shadow-cyan-500",
+  },
+  {
+    id: uuid(),
+    src: SiRedux,
+    title: "Redux",
+    color: "text-redux",
+    style: "shadow-purple-700",
+  },
+  {
+    id: uuid(),
+    src: SiTypescript ,
+    title: "TypeScript",
+    color: "text-typescriptBlue",
+    style: "shadow-blue-900",
   },
 
   {
@@ -96,13 +96,7 @@ const tech = [
     color: "text-postmanOrange",
     style: "shadow-amber-600",
   },
-  {
-    id: uuid(),
-    src: SiNginx,
-    title: "Nginx",
-    color: "text-nginxGreen",
-    style: "shadow-green-700",
-  },
+
 ];
 function Technologies() {
   return (
@@ -120,7 +114,7 @@ function Technologies() {
             data-aos-duration="2500"
             className="py-8 md:py-12 text-l md:text-xl"
           >
-            These are some of the technologies that I have worked on previosly.
+            These are a few of the frameworks and technologies I have previously worked with.
           </p>
         </div>
 

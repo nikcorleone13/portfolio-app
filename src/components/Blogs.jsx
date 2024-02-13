@@ -37,7 +37,7 @@ const Blogs = () => {
           <p className="text-4xl md:text-5xl font-extrabold border-b-4 p-2 inline border-gray-500  md:border-textPrimaryDesktopHover ">
             Blogs
           </p>
-          <p className="py-8 md:py-12 text-l  md:text-xl">
+          <p className="py-8 md:py-12 text-l  md:text-xl text-left  ">
             I like to document my journey. Checkout my blogs which I write when
             I'm learning a new concept. I try to simplify it for other people to
             help them understand it quickly.
@@ -59,7 +59,7 @@ const Blogs = () => {
                   <p className="pt-4 text-xl md:text-3xl font-semibold">
                     {title}
                   </p>
-                  <p className="text-md text-center pt-4 md:pt-4 md:text-[18px]">
+                  <p className="text-md text-left pt-4 md:pt-4 md:text-[18px]">
                     {preview}
                   </p>
                   <Link
